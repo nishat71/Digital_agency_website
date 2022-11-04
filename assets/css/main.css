@@ -1,0 +1,1778 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: 'Sporting Grotesque';
+    src: url("../sporting-grotesque/SportingGrotesque-Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque';
+    src: url("../sporting-grotesque/SportingGrotesque-Bold.woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family:'Clash Grotesk';
+    src: url("../ClashGrotesk/ClashGrotesk-Medium.woff");
+    font-weight: 500;
+}
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: var(--bg11) !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: transparent;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* Header navbar start */
+._header_wrapper {
+    padding: 10px 0;
+}
+
+._header_nav_wrapper {
+    padding: 20px 0;
+}
+
+._header_nav_logo {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.2;
+    color: var(--color2);
+}
+
+._header_nav_wrapper_list {
+    /* margin-right:0 auto 30px; */
+    margin: 0 auto;
+    margin-right: 30px;
+}
+
+._header_nav_wrapper_item {
+    margin-left: 30px;
+}
+
+._header_nav_item_link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: right;
+    transition: .2s all ease-in-out;
+    color: var(--color2) !important;
+}
+
+._header_nav_item_link:hover {
+    color: var(--bg5) !important;
+}
+
+._header_nav_btn {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 139px;
+    height: 36px;
+    background: var(--bg3);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+._header_nav_btn_span {
+    margin-left: 5px;
+    transition: .2s all ease-in-out;
+}
+
+._header_nav_btn_span:hover {
+    transform: translateX(2px) scale(1.1);
+}
+
+._header_nav_form_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Header herosection start */
+._header_wrap {
+    padding: 100px 0;
+}
+
+._header_agency_details_pera {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--color2);
+    margin-bottom: 50px;
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 500;
+}
+
+._header_agency_details_title {
+    font-size: 82px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color2);
+    margin-bottom: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+
+._header_agency_details_para_info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    color: var(--color5);
+    max-width: 60%;
+    margin-bottom: 50px;
+}
+
+._header_agency_form {
+    width: fit-content;
+    position: relative;
+    box-shadow: 4px 5px 0px #000;
+
+}
+
+._header_agency_form_input {
+    width: 482px;
+    height: 54px;
+    background: var(--bg9);
+    border: 2px solid var(--bg3);
+    border-radius: 3px 0px 0px 3px;
+    color: var(--color6);
+    padding-left: 16px;
+
+}
+
+._header_agency_form_btn {
+    position: absolute;
+    width: 164px;
+    height: 54px;
+    top: 0px;
+    right: 0;
+    background: var(--bg5);
+    border: 2px solid var(--bg3);
+    border-radius: 0px 3px 3px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--color2);
+}
+
+._header_agency_acc_box {
+    background: url('../image/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 272px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+._header_agency_acc_box_para {
+    font-family: 'Sporting Grotesque';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.6;
+    letter-spacing: -0.06em;
+    color: var(--color2);
+    margin-top: 26px;
+}
+
+._header_agency_right_cont {
+    position: relative;
+}
+
+._header_agency_right_cont:before {
+    position: absolute;
+    content: "";
+    background: url('../image/Group\ 6.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 117.45px;
+    height: 101px;
+    /* bottom: -600px; */
+    top: 500px;
+    right: 0;
+    animation: animation2 1.2s linear alternate infinite;
+}
+
+@keyframes animation2 {
+    form {
+        transform: scale(1) translateY(0);
+    }
+
+    to {
+        transform: scale(1.06) translateY(-5px);
+    }
+}
+
+._header_agency_right_cont_img {
+    width: 100%;
+}
+
+._header_agency_right_cont_1stimg {
+    position: absolute;
+    width: 253px;
+    height: 253px;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+._header_agency_right_cont_2ndimg {
+    position: absolute;
+    width: 258px;
+    height: 258px;
+    top: 193px;
+    left: 35%;
+}
+
+._header_agency_right_cont_3rdimg {
+    position: absolute;
+    height: 226px;
+    width: 233px;
+    top: 390px;
+    left: 6%;
+}
+
+/* Header marquee start */
+._header_agency_marquee_wrap {
+    width: 100%;
+    height: 100px;
+    background: var(--bg3);
+    margin: 0 auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+._header_agency_marquee_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: animation1 20s linear infinite;
+}
+
+._header_agency_marquee_item {
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-right: 55px;
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+}
+
+._header_agency_marquee_item::before {
+    position: absolute;
+    content: "";
+    background: var(--bg4);
+    width: 5px;
+    height: 40px;
+    top: 50%;
+    left: -30px;
+    transform: translate(-50%, -50%);
+}
+
+._header_agency_marquee_item:first-child::before {
+    display: none;
+}
+
+
+._header_agency_marquee_img {
+    width: 86px;
+    height: 90px;
+    margin-left: 21px;
+    margin-right: 40px;
+}
+
+@keyframes animation1 {
+    0% {
+        transform: translate(130%, 0);
+    }
+
+    100% {
+        transform: translate(-200%, 0);
+    }
+}
+
+/* services start */
+._services_agency_wrapper,
+._works_agency_wrapper {
+    margin-top: 140px;
+}
+
+._service_agency_content,
+._works_agency_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+._service_agency_content_button_link {
+    background: var(--bg4);
+    border-radius: 17px;
+    width: 102px;
+    height: 33px;
+    padding: 8px 16px;
+    margin-bottom: 25px;
+    color: var(--color1);
+    outline: none !important;
+    border: 0;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+
+._service_agency_content_title,
+._works_agency_content_title,
+._blog_agency_content_title {
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--color2);
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+
+._service_agency_content_para,
+._works_agency_content_para {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: var(--color5);
+    /* margin-bottom: 50px; */
+    max-width: 24%;
+    margin: 0 auto 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+._service_agency_single_box {
+    background: var(--bg10);
+    border-radius: 10px;
+    padding: 35px 0 42px 0;
+    text-align: center;
+}
+
+._service_agency_single_box_pera {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: var(--color7);
+    margin-bottom: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+._service_agency_single_box_title {
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: var(--color2);
+    max-width: 52%;
+    margin: 0 auto 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+._service_agency_single_box_img {
+    width: 189px;
+    height: 189px;
+    margin: 0 auto 30px;
+    object-fit: contain;
+}
+
+._service_agency_single_box_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._service_agency_single_box_btn_link {
+    transition: .3s all ease-in-out;
+    text-decoration: none;
+    width: 195px;
+    height: 57px;
+    border: 1px solid var(--bg3);
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 4px;
+    font-family: 'Sporting Grotesque';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: var(--color1) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._bg_color1 {
+    background: var(--b6) !important;
+
+}
+
+._bg_color2 {
+    background: var(--bg5) !important;
+}
+
+._bg_color3 {
+    background: var(--bg4) !important;
+
+}
+
+._service_agency_single_box_btn svg {
+    transition: .3s all ease-in-out;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    color: var(--color1) !important;
+}
+
+._service_agency_single_box_btn_link:hover {
+    box-shadow: none;
+    color: var(--color2) !important;
+}
+
+/* works section, blog section */
+._works_agency_right_cont_bottom {
+    position: relative;
+}
+
+._works_agency_content_button_link,
+._blog_agency_content_button_link {
+    background: var(--bg4) !important;
+    border-radius: 17px;
+    width: 77px;
+    height: 32px;
+    margin-bottom: 24px;
+    color: var(--color1);
+    outline: none !important;
+    border: 0;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+
+._works_agency_content_button_link {
+    background: var(--b7) !important;
+}
+
+._blog_agency_content_button_link {
+    background: var(--bg1);
+}
+
+
+._works_agency_left_cont_details,
+._works_agency_right_cont_details {
+    padding: 30px 10px 10px 17px;
+}
+
+._works_agency_left_cont_details_typ,
+._works_agency_right_cont_details_typ,
+._blog_agency_left_cont_details_typ {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color2);
+    margin-bottom: 26px;
+    border: 1px solid var(--bg3);
+    border-radius: 11.5px;
+    width: 85px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+._works_agency_left_cont_details_title,
+._works_agency_right_cont_details_title,
+._blog_agency_left_cont_details_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+._works_agency_left_cont_details_para,
+._works_agency_right_cont_details_para,
+._blog_agency_left_cont_details_para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+    color: var(--color2);
+    margin-bottom: 30px;
+}
+
+._works_agency_left_cont_details_link,
+._works_agency_right_cont_details_link,
+._blog_agency_left_cont_details_link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color2) !important;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+._works_agency_left_cont_details_link::before,
+._works_agency_right_cont_details_link::before,
+._blog_agency_left_cont_details_link::before {
+    position: absolute;
+    content: "";
+    background-color: var(--bg3);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transition: .2s all ease-in-out;
+}
+
+._works_agency_left_cont_details_link:hover::before,
+._works_agency_right_cont_details_link:hover::before,
+._blog_agency_left_cont_details_link:hover::before {
+    width: 0;
+}
+
+._works_agency_view_btn {
+    position: absolute;
+    bottom: -135px;
+    right: 71px;
+}
+
+._works_agency_view_btn_link {
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.09em;
+    color: var(--color3);
+    width: 168px;
+    height: 57px;
+    background: var(--bg5);
+    border: 1px solid var(--bg3);
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s all ease-in-out;
+    text-decoration: none;
+}
+
+._works_agency_view_btn_link:hover {
+    box-shadow: none;
+    color: var(--color3);
+}
+._works_agency_view_btn_link_span{
+    margin-left:5px;
+}
+
+/* Plans & Pricing starts */
+._pricing_agency_wrapper {
+    padding-top: 140px;
+}
+
+._pricing_agency_content_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+    color: var(--color2);
+}
+
+._pricing_agency_content_para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: var(--color5) !important;
+    max-width: 19%;
+    margin: 0 auto 60px;
+}
+
+._pricing_agency_card{
+    padding: 50px 30px;
+    background: var(--bg10);
+    border-radius: 8px;
+    transition: .2s all ease-in-out;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+._pricing_agency_card_btn {
+    width: 100%;
+}
+._pricing_agency_card_content_smtitle{
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--color2);
+    margin-bottom: 30px;
+    transition: .3s all ease-in-out;
+}
+
+._pricing_agency_card_content_title{
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--color2);
+    margin-bottom: 12px;
+    transition: .3s all ease-in-out;
+}
+
+._pricing_agency_card_content_title_span{
+    font-size: 50px;
+    margin-right: -10px;
+    color: var(--color2);
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+}
+
+._pricing_agency_card_content_para{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--color8) !important;
+    max-width: 78%;
+    margin: 0 auto;
+    transition: .3s all ease-in-out;
+}
+
+._pricing_agency_card_details{
+    border-top: 1px solid var(--color2);
+    margin: 36px 0 44px;
+    padding-top: 30px;
+    padding-left: 5px;
+    transition: .3s all ease-in-out;
+}
+
+._pricing_agency_card_details_li{
+    margin-bottom: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color2);
+    max-width: 100%;
+    transition: .3s all ease-in-out;
+}
+
+._pricing_agency_card_details_span{
+    margin-right: 10px;
+    color: var(--color11);
+}
+
+._pricing_agency_card_btn_link{
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--color9) !important;
+    width: 100%;
+    height: 55px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: .2s all ease-in-out;
+}
+._pricing_agency_card_btn_link:hover {
+    border: 1px solid var(--bg3);
+    box-shadow: 4px 4px 0px var(--bg11);
+    border-radius: 8px;
+    color: var(--color1) !important;
+}
+
+.bg_link1 {
+    background: var(--bg5);
+}
+
+.bg_link2 {
+    background: var(--bg4);
+}
+
+.bg_link3 {
+    background: var(--b6);
+}
+
+._pricing_agency_card:hover {
+    background: var(--bg3);
+    box-shadow: 0px 35px 39px -21px rgba(0, 0, 0, 0.25);
+    margin-top: -20px;
+}
+
+._pricing_agency_card:hover ._pricing_agency_card_content_smtitle {
+    color: var(--color1);
+}
+
+._pricing_agency_card:hover ._pricing_agency_card_content_title {
+    color: var(--color1);
+}
+
+._pricing_agency_card:hover ._pricing_agency_card_content_title_span {
+    color: var(--color1);
+}
+
+._pricing_agency_card:hover ._pricing_agency_card_content_para {
+    color: var(--color1) !important;
+}
+
+._pricing_agency_card:hover ._pricing_agency_card_details_li {
+    color: var(--color1);
+}
+
+._pricing_agency_card:hover ._pricing_agency_card_details_span{
+    color: var(--color1) !important;
+}
+
+/* testimonial agency start */
+._testimonial_agency_wrapper {
+    margin-top: 140px;
+    padding: 78px;
+    background: var(--bg12);
+}
+
+._testimonial_agency_slider {
+    position: relative;
+}
+
+._testimonial_agency_slider_card_img_area {
+    /* max-width: 375px;
+    margin: 0 auto; */
+}
+._testimonial_agency_slider_card_content {
+    margin-left: 60px;
+}
+._testimonial_agency_slider_card_content_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--color2);
+    max-width: 83%;
+    margin-bottom: 31px;
+}
+
+._testimonial_agency_slider_card_content_para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 84%;
+    color: var(--color2);
+}
+
+.splide__arrow.splide__arrow--prev,
+.splide__arrow.splide__arrow--next {
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: 46%;
+    transition: .2s all ease
+}
+
+.splide__arrow.splide__arrow--prev {
+    left: 0;
+}
+
+.splide__arrow.splide__arrow--next {
+    right: 0;
+}
+
+.splide__arrow.splide__arrow--prev:hover svg path,
+.splide__arrow.splide__arrow--next:hover svg path {
+    fill: rgba(0, 0, 0, 0.3);
+}
+
+/* blog section start */
+._blog_wrapper {
+    margin-top: 140px;
+}
+
+._blog_agency_left_con {
+    margin-top: 40px;
+}
+
+._blog_agency_left_cont_details {
+    padding: 21px 10px 10px 15px;
+}
+
+._blog_agency_content {
+    padding-left: 109px;
+    margin-bottom: 41px;
+}
+
+/* News agency section */
+._news_agency_wrapper {
+    margin-top: 140px;
+    background: var(--bg8);
+    padding: 60px 0;
+}
+
+._news_agency_content_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+    color: var(--color2);
+    margin-bottom: 50px;
+}
+
+._news-agency_form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+._news_agency_form_input {
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    border-bottom: 1px solid var(--bg3);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 24px;
+    background-color: transparent;
+}
+
+._news_agency_form_input::Placeholder {
+    color: var(--color2) !important;
+}
+
+._news_agency_form_btn {
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color2);
+    border-bottom: 1px solid var(--bg3);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+._news_agency_details {
+    margin-left: 80px;
+}
+
+._news_agency_details_para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+    color: var(--color2);
+    max-width: 66%;
+    margin-bottom: 10px;
+}
+
+._news_agency_details_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    text-decoration: none;
+    padding: 10px 16px;
+    width: 112px;
+    height: 36px;
+    border: 1px solid #000000;
+    color: var(--color2) !important;
+    border-radius: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    transition: .2s all ease-in-out;
+}
+
+._news_agency_details_link:hover {
+    background: var(--bg12) !important;
+    color: var(--color2) !important;
+    border-color: transparent;
+}
+
+/* footer marquee start */
+._footer_agency_marquee_wrap {
+    width: 100%;
+    height: 100px;
+    background: var(--bg3);
+    margin: 0 auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+._footer_agency_marquee_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: animation1 20s linear infinite;
+}
+
+._footer_agency_marquee_item {
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 50px;
+    padding-right: 24px;
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 700;
+}
+
+._footer_agency_marquee_item svg {
+    margin: 0 35px 0;
+}
+
+@keyframes animation1 {
+    0% {
+        transform: translate(130%, 0);
+    }
+
+    100% {
+        transform: translate(-200%, 0);
+    }
+}
+
+/*footer agency section*/
+._footer_agency_wrapper {
+    padding: 106px 0 34px;
+}
+
+._footer_agency_logo {
+    padding-bottom: 27px;
+    border-bottom: 2px solid var(--color4);
+    margin-bottom: 57px;
+}
+
+._footer_agency_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color10);
+    margin-bottom: 19px;
+}
+
+._footer_agency_list_ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+._footer_agency_list_item {
+    margin-bottom: 10px;
+}
+
+._footer_agency_list_item_link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color10) !important;
+    text-decoration: none;
+}
+
+._footer_agency_list_item_link:hover {
+    color: var(--bg5) !important;
+}
+
+._footer_agency_bottom_wrap {
+    padding-top: 87px;
+}
+
+._footer_agency_bottom_content {
+    display: flex;
+    align-items: center;
+}
+
+._footer_agency_bottm_content_para {
+    margin-right: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2;
+    color: var(--color2);
+}
+
+._footer_agency_bottm_para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: right;
+    color: #000000;
+    color: var(--color2);
+}
+/* responsive */
+/* Desktop/Laptop */
+@media (max-width:1399px) {
+    ._header_agency_details_title {
+        font-size: 62px;
+    }
+
+    ._header_agency_details_para_info {
+        max-width: 80%;
+    }
+
+    ._header_agency_right_cont_1stimg {
+        position: absolute;
+        width: 230px;
+        height: 234px;
+    }
+
+    ._header_agency_right_cont_2ndimg {
+        position: absolute;
+        width: 225px;
+        height: 251px;
+        top: 182px;
+        left: 35%;
+    }
+
+    ._header_agency_right_cont_3rdimg {
+        position: absolute;
+        height: 226px;
+        width: 221px;
+        top: 374px;
+        left: 6%;
+    }
+
+    ._service_agency_content_para,
+    ._works_agency_content_para {
+        max-width: 33%;
+    }
+
+    ._service_agency_content_title,
+    ._works_agency_content_title,
+    ._blog_agency_content_title {
+        font-size: 32px;
+    }
+
+    ._pricing_agency_content_para {
+        max-width: 33%;
+    }
+
+    ._news_agency_wrapper {
+        margin-top: 100px;
+    }
+
+}
+
+/* large device */
+@media (max-width:1199px) {
+    ._header_agency_details_title {
+        font-size: 53px;
+    }
+
+    ._header_agency_details_para_info {
+        max-width: 80%;
+        font-size: 18px;
+    }
+
+    ._header_agency_right_cont_1stimg {
+        position: absolute;
+        width: 205px;
+        height: auto;
+    }
+
+    ._header_agency_right_cont_2ndimg {
+        position: absolute;
+        width: 190px;
+        height: auto;
+        top: 166px;
+    }
+
+    ._header_agency_right_cont_3rdimg {
+        height: auto;
+        width: 190px;
+        top: 328px;
+        left: 17%;
+    }
+
+    ._header_agency_form_input {
+        width: 456px;
+    }
+
+    ._header_agency_right_cont:before {
+        /* bottom: -538px; */
+        right: -35px;
+        top: 348px;
+    }
+
+    ._header_agency_marquee_item {
+        font-size: 17px;
+    }
+
+    ._services_agency_wrapper,
+    ._works_agency_wrapper {
+        margin-top: 90px;
+    }
+
+    ._service_agency_single_box_pera {
+        font-size: 15px;
+    }
+
+    ._service_agency_content,
+    ._works_agency_content {
+        margin-bottom: 10px;
+    }
+
+    ._service_agency_single_box_title {
+        max-width: 46%;
+        font-size: 21px;
+        margin: 0px auto 25px;
+    }
+
+    ._service_agency_single_box_btn_link {
+        width: 170px;
+        font-size: 13px;
+    }
+
+    ._works_agency_view_btn_link {
+        font-size: 15px;
+        width: 161px;
+    }
+
+    ._pricing_agency_content_title {
+        font-size: 35px;
+    }
+
+    ._pricing_agency_content_para {
+        font-size: 16px;
+    }
+
+    ._pricing_agency_card_content_smtitle,
+    ._pricing_agency_middle_card_content_smtitle {
+        font-size: 16px;
+    }
+
+    ._pricing_agency_card_content_title_span,
+    ._pricing_agency_middle_card_content_title_span {
+        font-size: 35px;
+    }
+
+    ._pricing_agency_card,
+    ._pricing_agency_middle_card {
+        padding: 35px 20px;
+    }
+
+    ._pricing_agency_card_content_para,
+    ._pricing_agency_middle_card_content_para {
+        font-size: 16px;
+        max-width: 84%;
+    }
+
+    ._pricing_agency_card_details,
+    ._pricing_agency_middle_card_details {
+        margin: 25px 0 35px;
+        padding-top: 28px;
+    }
+
+    ._pricing_agency_card_details_li,
+    ._pricing_agency_middle_card_details_li {
+        max-width: 93%;
+        font-size: 15px;
+    }
+
+    ._pricing_agency_card_btn_link,
+    ._pricing_agency_middle_card_btn,
+
+    ._pricing_agency_card_middle_btn_link {
+        width: 92%;
+        font-size: 14px;
+    }
+
+    ._blog_agency_content {
+        padding-left: 0;
+    }
+
+    ._news_agency_content_title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    ._news_agency_form_input {
+        font-size: 14px;
+    }
+
+    ._news_agency_details_para {
+        font-size: 17px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    ._footer_agency_marquee_item {
+        font-size: 19px;
+    }
+
+    ._footer_agency_logo {
+        margin-bottom: 49px;
+    }
+
+    ._footer_agency_logo_span {
+        font-size: 10px;
+    }
+
+    ._testimonial_agency_slider_card_content_title {
+        font-size: 22px;
+        max-width: 92%;
+        margin-bottom: 19px;
+    }
+
+    ._testimonial_agency_slider_card_content_para {
+        font-size: 16px;
+        line-height: 1.4;
+        max-width: 98%;
+    }
+
+
+}
+
+/* medium device */
+@media (max-width:991px) {
+    ._header_agency_details_title {
+        font-size: 38px;
+    }
+
+    ._header_nav_wrapper_list {
+        /* margin-right: 30px; */
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ._header_nav_wrapper_item {
+        display: flex;
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+
+    ._header_nav_form_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    ._header_agency_right_cont_img {
+        /* max-width: 50%;
+        margin: 0 auto;
+        margin-top: 50px; */
+    }
+
+    ._header_agency_right_cont:before {
+        right: -5px;
+        top: 700px;
+    }
+
+    ._service_agency_single_box {
+        margin-bottom: 38px;
+    }
+
+    ._service_agency_single_box_title {
+        max-width: 80%;
+        font-size: 21px;
+        margin: 0px auto 16px;
+    }
+
+    ._works_agency_left_cont_details,
+    ._works_agency_right_cont_details,
+    ._blog_agency_left_cont_details {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    ._works_agency_left_cont_details_typ,
+    ._works_agency_right_cont_details_typ,
+    ._blog_agency_left_cont_details_typ {
+        text-align: center;
+    }
+
+    ._works_agency_left_cont_img,
+    ._works_agency_right_cont_img,
+    ._blog_agency_left_cont_img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    ._works_agency_left_cont_details_typ_block,
+    ._works_agency_right_cont_details_typ_block,
+    ._blog_agency_left_cont_details_typ_block,
+    ._blog_agency_left_cont_details_typ_block {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ._service_agency_content,
+    ._works_agency_content {
+        margin-bottom: 15px;
+    }
+
+    ._service_agency_content_para,
+    ._works_agency_content_para,
+    ._pricing_agency_content_para {
+        max-width: 66%;
+    }
+
+    ._works_agency_view_btn {
+        right: 265px;
+    }
+
+    ._pricing_agency_content_title {
+        margin-top: 30px;
+    }
+
+    ._pricing_agency_card_details_li,
+    ._pricing_agency_middle_card_details_li {
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    ._pricing_agency_card,
+    ._pricing_agency_middle_card {
+        margin-bottom: 30px;
+    }
+
+    ._pricing_agency_card_btn_link,
+    ._pricing_agency_middle_card_btn,
+    ._pricing_agency_card_middle_btn_link {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    ._blog_agency_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ._news_agency_details {
+        margin-left: 90px;
+    }
+
+    ._news_agency_details_para {
+        font-size: 14px;
+        max-width: 98%;
+        margin-bottom: 15px;
+    }
+
+    ._news_agency_content_title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    ._news_agency_form_input {
+        font-size: 11px;
+    }
+
+    ._news_agency_form_btn {
+        font-size: 11px;
+    }
+
+    ._testimonial_agency_wrapper {
+        padding: 60px 0;
+        margin-top: 90px;
+    }
+
+    ._testimonial_agency_slider_card_img_area {
+        /* max-width: 368px;
+        margin: 0; */
+        margin-bottom: 30px;
+    }
+
+    ._testimonial_agency_slider_card_content_title {
+        max-width: 100%;
+    }
+
+    ._footer_agency_marquee_item {
+        font-size: 16px;
+    }
+
+    ._footer_agency_wrapper {
+        padding: 59px 0 34px;
+    }
+
+    ._footer_agency_logo {
+        margin-bottom: 38px;
+    }
+
+
+    ._footer_agency_title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    ._footer_agency_list_item_link {
+        font-size: 15px;
+    }
+
+    ._footer_agency_list_item {
+        margin-bottom: 6px;
+    }
+
+    ._footer_agency_list_ul {
+        margin-bottom: 50px;
+    }
+
+    ._footer_agency_bottom_wrap {
+        padding-top: 0;
+    }
+
+    ._footer_agency_bottm_content_para,
+    ._footer_agency_bottm_para {
+        margin-right: 30px;
+        font-size: 15px;
+    }
+}
+
+/* small device */
+@media (max-width:768px) {
+    ._header_agency_right_cont:before {
+        right: -5px;
+        top: 500px;
+    }
+
+    ._services_agency_wrapper,
+    ._works_agency_wrapper {
+        margin-top: 65px;
+    }
+
+    ._service_agency_content_para,
+    ._works_agency_content_para,
+    ._pricing_agency_content_para {
+        max-width: 85%;
+    }
+
+    ._works_agency_left_cont_img,
+    ._works_agency_right_cont_img,
+    ._blog_agency_left_cont_img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    ._works_agency_view_btn {
+        display: none;
+    }
+
+    ._blog_agency_content {
+        display: block;
+    }
+
+    ._blog_agency_left_cont_details {
+        padding: 30px 10px 10px 30px;
+    }
+
+    ._pricing_agency_wrapper {
+        padding-top: 15px;
+    }
+
+    ._pricing_agency_content_para {
+        font-size: 18px;
+        max-width: 85%;
+    }
+
+    ._news_agency_wrapper {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    ._news_agency_form_input,
+    ._news_agency_form_btn {
+        font-size: 15px;
+    }
+
+    ._news_agency_details {
+        /* margin-left: 90px; */
+        margin: 30px 0 0;
+    }
+
+    ._news_agency_details_para {
+        font-size: 17px;
+        max-width: 100%;
+    }
+
+    ._footer_agency_bottm_content_para,
+    ._footer_agency_bottm_para {
+        margin-right: 10px;
+
+    }
+}
+
+/* extra small device */
+@media (max-width:575px) {
+    ._testimonial_agency_wrapper {
+        padding: 55px 0;
+        margin-top: 60px;
+    }
+
+    ._footer_agency_bottm_para {
+        text-align: left;
+        margin-right: 0;
+        margin-top: 12px;
+    }
+
+    ._footer_agency_bottom_content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    ._testimonial_agency_slider_card_content {
+        margin-left:0;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    ._header_wrap {
+        padding: 40px 0;
+    }
+    ._header_nav_wrapper_item {
+        margin-bottom:0;
+    }
+    ._header_agency_details_title {
+        font-size: 49px;
+    }
+
+    ._header_agency_details_para_info {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    ._header_agency_form {
+        width: auto;
+    }
+
+    ._header_agency_form_input {
+        width: 100%;
+    }
+
+    ._header_agency_right_cont_img {
+        margin-top: 50px;
+    }
+
+    ._header_agency_right_cont:before {
+        right: 10px;
+        top: 350px;
+    }
+
+    ._service_agency_content_title,
+    ._works_agency_content_title,
+    ._blog_agency_content_title {
+        font-size: 28px;
+    }
+
+    ._service_agency_content_para,
+    ._works_agency_content_para,
+    ._pricing_agency_content_para {
+        max-width: 90%;
+        margin: 0 auto 30px;
+    }
+
+    ._blog_wrapper {
+        margin-top: 70px;
+    }
+    ._testimonial_agency_slider_card_content_title {
+        max-width: 100%;
+    }
+    ._testimonial_agency_slider_card_content_para {
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {}
+
+
+/* variable */
+:root {
+
+    --color1: #FFFFFF;
+    --color2: #000000;
+    --color3: #060606;
+    --color4: #8F8F8F;
+    --color5: #353535;
+    --color6: #C2C2C2;
+    --color7: #404040;
+    --color8: #525252;
+    --color9: #161615;
+    --color10: #0E0D1A;
+    --color11: #5D5C5B;
+    --bg1: #FC6868;
+    --bg2: #F2F0E6;
+    --bg3: #000000;
+    --bg4: #FC7F3A;
+    --bg5: #FFBB38;
+    --b6: #389B48;
+    --b7: #458DC9;
+    --bg8: #FFC80A;
+    --bg9: #FFFFFF;
+    --bg10: #EBE9DE;
+    --bg11: #F9F7EE;
+    --bg12: #64E379;
+}
